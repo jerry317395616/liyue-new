@@ -1,0 +1,1 @@
+<view class="rate _div data-v-777faedc"><block wx:for="{{maxRating}}" wx:for-item="n" wx:for-index="__i0__" wx:key="*this"><label data-event-opts="{{[['tap',[['setRating',['$0'],[[['maxRating','',__i0__]]]]]]]}}" class="rate-item _span data-v-777faedc" bindtap="__e"><image class="rate-icon data-v-777faedc" src="{{n<=rating?fullIcon:emptyIcon}}"></image></label></block></view>

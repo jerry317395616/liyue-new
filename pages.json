@@ -1,0 +1,225 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@/plugins/uview-ui/components/u-$1/u-$1.vue",
+			"^liyue-(.*)": "@/components/liyue-$1.vue"
+		}
+	},
+	"lazyCodeLoading": "requiredComponents",
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/member/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "会员"
+			}
+		},
+		{
+			"path" : "pages/fete/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "祭祀"
+			}
+		},
+		{
+			"path" : "pages/order/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单中心"
+			}
+		},
+		{
+			"path" : "pages/my/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的"
+			}
+		},
+		{
+			"path" : "pages/order/list",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单中心"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "sub-pages-other",
+		"pages": [{
+			"path": "network/error",
+			"style": {
+				"navigationBarTitleText": "网络错误"
+			}
+		},
+		{
+			"path" : "liyue-video/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "authorize/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "authorize/phone-login",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}, 
+		{
+			"path": "web-view/web-view"
+		},
+		{
+			"path" : "full-screen/full-screen",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}]
+	},
+	{
+		"root": "person",
+		"pages": [{
+			"path" : "address/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "新增/编辑地址"
+			}
+		},
+		{
+			"path" : "address/address-manage",
+			"style" : 
+			{
+				"navigationBarTitleText" : "地址管理"
+			}
+		},
+		{
+			"path" : "feedback/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "意见反馈"
+			}
+		},
+		{
+			"path" : "clause/clause",
+			"style" : 
+			{
+				"navigationBarTitleText" : "使用条款"
+			}
+		},
+		{
+			"path" : "privacy-agreement/privacy-agreement",
+			"style" : 
+			{
+				"navigationBarTitleText" : "隐私政策"
+			}
+		},
+		{
+			"path" : "photo-album/photo-album",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}]
+	},
+	{
+		"root": "order",
+		"pages": [
+		{
+			"path" : "create-order/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "order-list/order-list",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "order-detail/order-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}]
+	},
+	{
+		"root": "shop",
+		"pages": [{
+			"path" : "town-god-text/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}]
+	}],
+	"tabBar": {
+		"color": "#fff",
+		"selectedColor": "#fff",
+		"borderStyle": "black",
+		"backgroundColor": "#000",
+		"height": "98rpx",
+		"fontSize": "20rpx",
+		"list": [{
+			"pagePath": "pages/index/home",
+			"iconPath": "static/images/tabbar/jin.png",
+			"selectedIconPath": "static/images/tabbar/jin.png",
+			"text": "首页"
+		}, 
+		{
+			"pagePath": "pages/member/index",
+			"iconPath": "static/images/tabbar/mu.png",
+			"selectedIconPath": "static/images/tabbar/mu.png",
+			"text": "会员"
+		},
+		{
+			"pagePath": "pages/fete/index",
+			"iconPath": "static/images/tabbar/tu.png",
+			"selectedIconPath": "static/images/tabbar/tu.png",
+			"text": "祭祀"
+		},
+		{
+			"pagePath": "pages/order/list",
+			"iconPath": "static/images/tabbar/huo.png",
+			"selectedIconPath": "static/images/tabbar/huo.png",
+			"text": "订单"
+		},
+		{
+			"pagePath": "pages/my/index",
+			"iconPath": "static/images/tabbar/shui.png",
+			"selectedIconPath": "static/images/tabbar/shui.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"uniIdRouter": {}
+}

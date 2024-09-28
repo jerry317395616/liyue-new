@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "网络错误",
+  "usingComponents": {
+    "u-empty": "/plugins/uview-ui/components/u-empty/u-empty"
+  }
+}

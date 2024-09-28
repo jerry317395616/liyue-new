@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page.data-v-a461ffe0 {
+  padding-bottom: 200rpx;
+}
+.page .border-box.data-v-a461ffe0 {
+  margin: 20rpx 0;
+  padding: 20rpx;
+  font-size: 32rpx;
+  background-color: #fff;
+  font-weight: bold;
+}
+.page .my-order-title.data-v-a461ffe0 {
+  width: 100%;
+  color: #272727;
+  font-size: 38rpx;
+  background-color: #fff;
+  padding: 0 20rpx 20rpx 20rpx;
+}
+.page .my-order-title .order-title.data-v-a461ffe0 {
+  padding: 60rpx 0;
+  font-weight: bold;
+}
+.page .my-order-title .order-text1.data-v-a461ffe0 {
+  font-size: 28rpx;
+  color: #A5A5A5;
+}
+.page .my-order-title .order-text2.data-v-a461ffe0 {
+  font-size: 28rpx;
+  color: #A5A5A5;
+  margin-top: 20rpx;
+}
+.page .shop-list-box.data-v-a461ffe0 {
+  margin-top: 20rpx;
+  padding: 20rpx 0;
+  background-color: #fff;
+}
+.page .shop-list-box .shop-list-title.data-v-a461ffe0 {
+  font-size: 30rpx;
+  font-weight: bold;
+  padding: 0 20rpx 20rpx 20rpx;
+}
+.page .shop-list-box .shop-content-box.data-v-a461ffe0 {
+  padding: 0 20rpx;
+}
+.page .shop-list-box .shop-content-box .shop-item.data-v-a461ffe0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.page .shop-list-box .shop-content-box .shop-item .shop-left.data-v-a461ffe0 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.page .shop-list-box .shop-content-box .shop-item .shop-left .shop-name-box.data-v-a461ffe0 {
+  margin-left: 20rpx;
+}
+.page .shop-list-box .shop-content-box .shop-item .shop-left .shop-name-box .shop-name.data-v-a461ffe0 {
+  font-weight: bold;
+}
+.page .shop-list-box .shop-content-box .shop-item .shop-left .shop-name-box .shop-price.data-v-a461ffe0 {
+  margin-top: 10rpx;
+}
+.page .shop-list-box .shop-content-box .shop-item.data-v-a461ffe0:nth-child(n+2) {
+  border-top: 1rpx dashed #d9d9d9;
+}
+.page .shop-list-box .shop-content-box .order-count-list.data-v-a461ffe0 {
+  padding: 20rpx 0 20rpx 0;
+}
+.page .shop-list-box .shop-content-box .order-count-list .shop-count.data-v-a461ffe0 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.page .shop-list-box .shop-content-box .order-count-list .shop-count.data-v-a461ffe0:nth-child(n+2) {
+  margin-top: 10rpx;
+}
+.page .shop-list-box .shop-content-box .total-price.data-v-a461ffe0 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 30rpx 0 10rpx 0;
+}
+.page .shop-list-box .shop-content-box .total-price .total-price-no.data-v-a461ffe0 {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.page .shop-address-box.data-v-a461ffe0 {
+  margin-top: 20rpx;
+  padding: 20rpx 0;
+  background-color: #fff;
+}
+.page .shop-address-box .shop-address-title.data-v-a461ffe0 {
+  font-size: 30rpx;
+  font-weight: bold;
+  padding: 0 20rpx 20rpx 20rpx;
+}
+.page .shop-address-box .shop-content-box.data-v-a461ffe0 {
+  padding: 30rpx 20rpx;
+}
+.page .shop-address-box .shop-content-box .address-name.data-v-a461ffe0 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.page .shop-address-box .shop-content-box .address-name .address-name1.data-v-a461ffe0 {
+  color: #909090;
+  width: 120rpx;
+  min-width: 120rpx;
+}
+.page .shop-address-box .shop-content-box .address-name .address-name2.data-v-a461ffe0 {
+  margin-left: 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  word-wrap: break-word;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+.page .shop-address-box .shop-content-box .address-name .address-name3 .invoice-desc.data-v-a461ffe0 {
+  color: #909090;
+  margin-top: 10rpx;
+}
+.page .shop-address-box .shop-content-box .address-name.data-v-a461ffe0:nth-child(n+2) {
+  margin-top: 20rpx;
+}
+.page .order-footer.data-v-a461ffe0 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 180rpx;
+  width: 100%;
+  background-color: #ededee;
+}
+.page .order-footer .order-button.data-v-a461ffe0 {
+  padding: 15rpx 40rpx;
+  background-color: #fff;
+  color: #6A6C6D;
+  border-radius: 30rpx;
+}
+.page .order-footer .order-button1.data-v-a461ffe0 {
+  padding: 15rpx 40rpx;
+  background-color: #232524;
+  color: #bec2c0;
+  border-radius: 30rpx;
+}
+

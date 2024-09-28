@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "祭祀",
+  "usingComponents": {
+    "u-input": "/plugins/uview-ui/components/u-input/u-input",
+    "u-number-box": "/plugins/uview-ui/components/u-number-box/u-number-box",
+    "u-line": "/plugins/uview-ui/components/u-line/u-line",
+    "u-popup": "/plugins/uview-ui/components/u-popup/u-popup",
+    "u-icon": "/plugins/uview-ui/components/u-icon/u-icon",
+    "u-empty": "/plugins/uview-ui/components/u-empty/u-empty"
+  }
+}

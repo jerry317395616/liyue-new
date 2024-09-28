@@ -1,0 +1,91 @@
+{
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "相册",
+                    "pathName": "person/photo-album/photo-album",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "手机号登录",
+                    "pathName": "sub-pages-other/authorize/phone-login",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "登录",
+                    "pathName": "sub-pages-other/authorize/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "地址管理",
+                    "pathName": "person/address/address-manage",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "订单提交",
+                    "pathName": "shop/create-order/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "城隍表文",
+                    "pathName": "shop/town-god-text/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "地址",
+                    "pathName": "person/address/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "祭祀",
+                    "pathName": "pages/fete/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "订单首页",
+                    "pathName": "pages/order/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "文章详情",
+                    "pathName": "pages/article/detail",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "搜索页",
+                    "pathName": "pages/shop-detail/shop-search",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "libVersion": "3.5.5",
+    "projectname": "sidebar",
+    "setting": {
+        "compileHotReLoad": true
+    }
+}

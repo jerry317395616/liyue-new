@@ -1,0 +1,18 @@
+
+.container.data-v-428ac16a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: black;
+}
+#myVideo.data-v-428ac16a {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	/* 确保视频按比例缩放以适应容器 */
+}
+.error-message.data-v-428ac16a {
+	color: white;
+}
+

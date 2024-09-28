@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "u-input": "/plugins/uview-ui/components/u-input/u-input",
+    "u-number-box": "/plugins/uview-ui/components/u-number-box/u-number-box"
+  }
+}

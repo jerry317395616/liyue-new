@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单中心",
+  "usingComponents": {
+    "u-tabs": "/plugins/uview-ui/components/u-tabs/u-tabs",
+    "u-image": "/plugins/uview-ui/components/u-image/u-image",
+    "u-empty": "/plugins/uview-ui/components/u-empty/u-empty"
+  }
+}

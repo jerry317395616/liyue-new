@@ -1,0 +1,1 @@
+<view class="container data-v-428ac16a"><block wx:if="{{videoUrl}}"><video id="myVideo" src="{{videoUrl}}" fullscreen="{{true}}" class="data-v-428ac16a"></video></block></view>

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "新增/编辑地址",
+  "usingComponents": {
+    "u-form": "/plugins/uview-ui/components/u-form/u-form",
+    "u-form-item": "/plugins/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/plugins/uview-ui/components/u-input/u-input"
+  }
+}

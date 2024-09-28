@@ -1,0 +1,1 @@
+<block wx:if="{{showSplash}}"><view class="splash-screen data-v-14e40dd2"><image class="full-screen-image data-v-14e40dd2" src="/static/images/material-item29.jpg" mode="aspectFill"></image><view class="countdown data-v-14e40dd2">{{countdown+" 秒后自动关闭"}}</view></view></block>

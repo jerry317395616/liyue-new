@@ -1,0 +1,1 @@
+<view class="network-error data-v-286621b4"><view class="content data-v-286621b4"><u-empty vue-id="3742d45c-1" mode="wifi" class="data-v-286621b4" bind:__l="__l"></u-empty><view data-event-opts="{{[['tap',[['checkNetwork',['$event']]]]]}}" class="button data-v-286621b4" catchtap="__e">重 试</view></view></view>

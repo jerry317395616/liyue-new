@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "u-checkbox": "/plugins/uview-ui/components/u-checkbox/u-checkbox"
+  }
+}

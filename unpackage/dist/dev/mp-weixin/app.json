@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/home",
+    "pages/member/index",
+    "pages/fete/index",
+    "pages/order/index",
+    "pages/my/index",
+    "pages/order/list"
+  ],
+  "subPackages": [
+    {
+      "root": "sub-pages-other",
+      "pages": [
+        "network/error",
+        "liyue-video/index",
+        "authorize/index",
+        "authorize/phone-login",
+        "web-view/web-view",
+        "full-screen/full-screen"
+      ]
+    },
+    {
+      "root": "person",
+      "pages": [
+        "address/index",
+        "address/address-manage",
+        "feedback/index",
+        "clause/clause",
+        "privacy-agreement/privacy-agreement",
+        "photo-album/photo-album"
+      ]
+    },
+    {
+      "root": "order",
+      "pages": [
+        "create-order/index",
+        "order-list/order-list",
+        "order-detail/order-detail"
+      ]
+    },
+    {
+      "root": "shop",
+      "pages": [
+        "town-god-text/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#000",
+    "height": "98rpx",
+    "fontSize": "20rpx",
+    "list": [
+      {
+        "pagePath": "pages/index/home",
+        "iconPath": "static/images/tabbar/jin.png",
+        "selectedIconPath": "static/images/tabbar/jin.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/member/index",
+        "iconPath": "static/images/tabbar/mu.png",
+        "selectedIconPath": "static/images/tabbar/mu.png",
+        "text": "会员"
+      },
+      {
+        "pagePath": "pages/fete/index",
+        "iconPath": "static/images/tabbar/tu.png",
+        "selectedIconPath": "static/images/tabbar/tu.png",
+        "text": "祭祀"
+      },
+      {
+        "pagePath": "pages/order/list",
+        "iconPath": "static/images/tabbar/huo.png",
+        "selectedIconPath": "static/images/tabbar/huo.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/images/tabbar/shui.png",
+        "selectedIconPath": "static/images/tabbar/shui.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
